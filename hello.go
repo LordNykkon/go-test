@@ -10,6 +10,7 @@ import (
 
 func main() {
 	fmt.Println("Hello, World!")
+	fmt.Println("Quote of the day is:")
 	quotes := map[int]func() string{
 		0: quote.Glass,
 		1: quote.Go,
